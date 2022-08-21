@@ -21,7 +21,8 @@ function Home() {
 						quasi pariatur, vitae sequi veritatis veniam rerum, quos
 						consectetur commodi rem totam voluptatum? Hic!
 					</p>
-					<button className="block mt-8 mx-auto md:mx-0 py-3 px-6 w-60 h-16 text-red-50 text-lg font-semibold rounded-xl bg-indigo-900">Download Resume !</button>
+					<a href="files\cv_yassin.pdf" download><button className="block mt-8 mx-auto md:mx-0 py-3 px-6 w-60 h-16 text-red-50 text-lg font-semibold rounded-xl bg-indigo-900">Download Resume !</button></a>
+					
 				</div>
 			</div>
 			</div>

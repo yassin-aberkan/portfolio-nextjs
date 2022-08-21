@@ -1,8 +1,8 @@
 import { Fragment } from "react";
 import Link from "next/link";
 import { Popover, Transition } from "@headlessui/react";
-import { MenuIcon, XIcon } from "@heroicons/react/outline";
-import { FaGithub, FaLinkedin } from 'react-icons/fa';
+import { MenuIcon, XIcon, MailIcon } from "@heroicons/react/outline";
+import { FaGithub, FaLinkedin, FaMailBulk } from 'react-icons/fa';
 import { useRouter } from 'next/router';
 
 export default function Navigation() {
@@ -38,13 +38,13 @@ export default function Navigation() {
               </a>
             </Link>
             
-            <Link href="/">
+            <Link href="#projects">
               <a className={`text-base font-medium  ${router.pathname == "/contact" ? "text-black" : "text-gray-500"} hover:text-black`}>
                 Projects
               </a>
             </Link>
 
-            <Link href="/">
+            <Link href="#contact">
               <a className={`text-base font-medium  ${router.pathname == "/contact" ? "text-black" : "text-gray-500"} hover:text-black`}>
                 Contact
               </a>
@@ -64,6 +64,16 @@ export default function Navigation() {
                 target="_blank" rel="noopener noreferrer"
                 >
                     <FaGithub className="text-2xl hover:text-gray-600"/>
+            </a>
+            <a
+                href="mailto:yaberkan.pro@gmail.com"
+                className="whitespace-nowrap text-base font-medium text-black hover:text-gray-600"
+                target="_blank" rel="noopener noreferrer"
+                >
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7" viewBox="0 0 20 20" fill="currentColor">
+                    <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" />
+                    <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
+                  </svg>
             </a>
             
             <a
@@ -110,26 +120,21 @@ export default function Navigation() {
             </div>
             <div className="py-6 px-5 space-y-6">
               <div className="grid grid-cols-1 gap-y-4 gap-x-8">
-                <Link href="/">
-                  <a className="text-base font-medium text-black hover:text-gray-400 no-underline">
-                    About me
-                  </a>
-                </Link>
-                <Link href="/">
+                <Link href="#services">
                 <a
                   className="text-base font-medium text-black hover:text-gray-400"
                 >
                   Skills
                 </a>
                 </Link>
-                <Link href="/">
+                <Link href="#projects">
                 <a
                   className="text-base font-medium text-black hover:text-gray-400"
                 >
                   Projects
                 </a>
                 </Link>
-                <Link href="/contact">
+                <Link href="#contact">
                   <a className="text-base font-medium text-black hover:text-gray-400">
                     Contact
                   </a>

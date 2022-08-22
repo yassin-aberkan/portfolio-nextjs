@@ -20,7 +20,7 @@ function projects() {
           <p className="font-normal font mt-5 mb-5 flex-wrap text-gray-600">
           I had to design a showcase site for a non-profit company. Be formation proposes trainings for all people who are interested in technology. For example Photoshop, javascript and more !
 					</p>
-          <a href="https://github.com/yassin-aberkan/be-formation-site" target="_blank" className="flex flex-row items-center justify-between w-40 transition delay-2000 hover:translate-x-4 duration-2000 xl:mx-0 mx-auto">
+          <a href="https://github.com/yassin-aberkan/be-formation-site" className="flex flex-row items-center justify-between w-40 transition delay-2000 hover:translate-x-4 duration-2000 xl:mx-0 mx-auto" rel="noopener noreferrer" target="_blank">
             <span className="text-indigo-900 font-semibold text-lg">
               Check in Github
             </span>
@@ -40,9 +40,9 @@ function projects() {
           </h2>
           <h5 className="mt-3 text-xl text-gray-600">Flutter, Java, Spring, Firebase</h5>
           <p className=" font-normal font mt-5 mb-5 flex-wrap text-gray-600">
-          I'm very interested in all the new technologies like flutter which arrived recently and offers development tools for mobile. So, I am in the process of developping a social network application using flutter for the frontend and firebase and java spring for the backend.
+          I&apos;m very interested in all the new technologies like flutter which arrived recently and offers development tools for mobile. So, I am in the process of developping a social network application using flutter for the frontend and firebase and java spring for the backend.
           </p>
-          <a href="https://github.com/yassin-aberkan/vasit-mobile" className="flex flex-row items-center justify-between w-40 transition delay-2000 hover:translate-x-4 duration-2000 xl:mx-0 mx-auto" target="_blank">
+          <a href="https://github.com/yassin-aberkan/vasit-mobile" className="flex flex-row items-center justify-between w-40 transition delay-2000 hover:translate-x-4 duration-2000 xl:mx-0 mx-auto" rel="noopener noreferrer" target="_blank">
             <span className="text-indigo-900  font-semibold text-lg">
               Check in Github
             </span>

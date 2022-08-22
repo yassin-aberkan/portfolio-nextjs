@@ -2,13 +2,11 @@ import {
     FaMapMarkedAlt,
     FaPhoneAlt,
     FaEnvelope,
-    FaIntercom
   } from "react-icons/fa";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
 import { Element } from "react-scroll";
-import { FaArrowRight } from 'react-icons/fa';
 
 const infos = [
     {
@@ -40,12 +38,12 @@ function contact() {
 
 	return (
 		<Element id="contact" name="contact">
-			<div className="w-full lg:my-20 my-16 h-auto flex flex-col justify-center items-center ">
+			<div className="w-full mt-16 mb-32 h-auto flex flex-col justify-center items-center">
 				<p className=" text-xl section__subtitle">Contact</p>
 				<h1 className="text-indigo-900 md:text-5xl text-4xl font-bold text-center">
 					Contact me now !
 				</h1>
-                <div class="xl:flex lg:flex-row lg:justify-between xl:mx-64 md:mx-24 mx-4 mt-20 xl:space-x-24 xl:space-y-0 space-y-14" data-aos="fade-dawn">
+                <div className="xl:flex lg:flex-row lg:justify-between xl:mx-64 md:mx-24 mx-4 mt-20 xl:space-x-24 xl:space-y-0 space-y-14" data-aos="fade-dawn">
                     <img src = "/contact.svg" alt="Contact Image" className="w-96"/>
                     <div className="max-w-5xl mx-auto">
 
@@ -60,8 +58,6 @@ function contact() {
                             {info.description}
                             </p>
                             </h2>
-                            
-                            
                         </div>
                         ))}
                         </div>

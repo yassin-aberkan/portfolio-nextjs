@@ -12,12 +12,12 @@ export default function footer({}) {
                 <span  className="text-xl">Yass </span><span className="text-lg">Portfolio</span>
               </a>
             </div>
-            <span className="text-gray-400">YASS © 2022</span>
-            <div className="flex mt-4 md:m-0">
+            <span className="text-gray-400 md:mt-0 mt-4">YASS © 2022</span>
+            <div className="flex mt-5 md:m-0">
               <div className="-mx-4">
-              <div className="hidden md:flex items-center space-x-5 justify-end md:flex-1 lg:w-0">
+              <div className="flex items-center space-x-5 justify-end md:flex-1 lg:w-0">
           <a
-                href="https://linkedin.com"
+                href="https://www.linkedin.com/in/yassin-aberkan-44a648209/"
                 className="whitespace-nowrap text-base font-medium text-white hover:text-gray-200"
                 target="_blank" rel="noopener noreferrer"
                 >

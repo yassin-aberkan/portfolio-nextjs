@@ -36,8 +36,8 @@ function services() {
 				<h1 className="text-indigo-900 md:text-5xl text-4xl font-bold text-center">
 					My Expertise
 				</h1>
-				<div class="xl:flex lg:flex-row lg:justify-around xl:mx-40 md:mx-24 mx-4 mt-16 xl:space-x-48 xl:space-y-0 space-y-14">
-                <div class="bg-slate-200 py-10 px-14 rounded-2xl" data-aos="fade-up">
+				<div className="xl:flex lg:flex-row lg:justify-around xl:mx-40 md:mx-24 mx-4 mt-16 xl:space-x-48 xl:space-y-0 space-y-14">
+                <div className="bg-slate-200 py-10 px-14 rounded-2xl" data-aos="fade-up">
                     <h2 className="text-indigo-900  md:text-3xl text-2xl  font-semibold text-center">
                         Backend Development
                     </h2>
@@ -53,7 +53,7 @@ function services() {
                         ))}
                     </dl>
                 </div>
-                <div class="bg-slate-200 py-10 px-14 rounded-2xl" data-aos="fade-up">
+                <div className="bg-slate-200 py-10 px-14 rounded-2xl" data-aos="fade-up">
                     <h2 className="text-indigo-900  md:text-3xl text-2xl  font-semibold text-center">
                         Frontend Development
                     </h2>

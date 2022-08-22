@@ -16,7 +16,7 @@ function projects() {
 				<h1 className="text-indigo-900 md:text-5xl text-4xl font-bold text-center">
 					All my works
 				</h1>
-				<div class="xl:flex lg:flex-row lg:justify-between xl:mx-64 md:mx-24 mx-4 mt-20 xl:space-x-24 xl:space-y-0 space-y-14" data-aos="fade-dawn">
+				<div className="xl:flex lg:flex-row lg:justify-between xl:mx-64 md:mx-24 mx-4 mt-20 xl:space-x-24 xl:space-y-0 space-y-14" data-aos="fade-dawn">
           <img className="lg:h-80 md:h-80 h-56 rounded-lg object-cover shadow-xl xl:mx-0 mx-auto" src="/images/works-beformation.png" alt="" />
           <div className="xl:text-left text-center xl:w-1/2 lg:3/4">
           <h2 className="text-indigo-900 md:text-4xl text-3xl font-bold">
@@ -24,12 +24,9 @@ function projects() {
           </h2>
           <h5 className="mt-3 text-xl text-gray-600">React, Tailwind, Javascript, HTML, CSS</h5>
           <p className="font-normal font mt-5 mb-5 flex-wrap text-gray-600">
-						Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis
-						aperiam placeat molestiae atque tempore perspiciatis laboriosam
-						quasi pariatur, vitae sequi veritatis veniam rerum, quos
-						consectetur commodi rem totam voluptatum? Hic!
+          I had to design a showcase site for a non-profit company. Be formation proposes trainings for all people who are interested in technology. For example Photoshop, javascript and more !
 					</p>
-          <a href="https:\\github.com" className="flex flex-row items-center justify-between w-40 transition delay-2000 hover:translate-x-4 duration-2000 xl:mx-0 mx-auto">
+          <a href="https://github.com/yassin-aberkan/be-formation-site" target="_blank" className="flex flex-row items-center justify-between w-40 transition delay-2000 hover:translate-x-4 duration-2000 xl:mx-0 mx-auto">
             <span className="text-indigo-900 font-semibold text-lg">
               Check in Github
             </span>
@@ -37,7 +34,7 @@ function projects() {
           </a>
           </div>
         </div>
-        <div class="xl:flex lg:flex-row lg:justify-between xl:mx-64 md:mx-24 mx-4 mt-20 xl:space-x-24 xl:space-y-0 space-y-14" data-aos="fade-dawn">
+        <div className="xl:flex lg:flex-row lg:justify-between xl:mx-64 md:mx-24 mx-4 mt-20 xl:space-x-24 xl:space-y-0 space-y-14" data-aos="fade-dawn">
           <div className="flex flex-row justify-center space-x-10 space-y-0 xl:mr-5">
             <img className="lg:h-80 md:h-80 h-72 rounded-lg object-cover shadow-xl" src="/images/works-vasit01.jpeg" alt="" />
             <img className="lg:h-80 md:h-80 h-72 rounded-lg object-cover shadow-xl" src="/images/works-vasit02.jpeg" alt="" />
@@ -49,12 +46,9 @@ function projects() {
           </h2>
           <h5 className="mt-3 text-xl text-gray-600">Flutter, Java, Spring, Firebase</h5>
           <p className=" font-normal font mt-5 mb-5 flex-wrap text-gray-600">
-						Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis
-						aperiam placeat molestiae atque tempore perspiciatis laboriosam
-						quasi pariatur, vitae sequi veritatis veniam rerum, quos
-						consectetur commodi rem totam voluptatum? Hic!
-					</p>
-          <a href="https:\\github.com" className="flex flex-row items-center justify-between w-40 transition delay-2000 hover:translate-x-4 duration-2000 xl:mx-0 mx-auto">
+          I'm very interested in all the new technologies like flutter which arrived recently and offers development tools for mobile. So, I am in the process of developping a social network application using flutter for the frontend and firebase and java spring for the backend.
+          </p>
+          <a href="https://github.com/yassin-aberkan/vasit-mobile" className="flex flex-row items-center justify-between w-40 transition delay-2000 hover:translate-x-4 duration-2000 xl:mx-0 mx-auto" target="_blank">
             <span className="text-indigo-900  font-semibold text-lg">
               Check in Github
             </span>

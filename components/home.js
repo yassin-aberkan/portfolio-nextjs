@@ -16,12 +16,10 @@ function Home() {
 					</h1>
 					<h5 className="mb-6 lg:text-left text-xl text-gray-600">Fullstack Developer</h5>
 					<p className="text-left font-normal font mb-5 flex-wrap text-gray-600">
-						Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis
-						aperiam placeat molestiae atque tempore perspiciatis laboriosam
-						quasi pariatur, vitae sequi veritatis veniam rerum, quos
-						consectetur commodi rem totam voluptatum? Hic!
+					Hi, my name is Yassin, 22 years old. Passionate about computer science, I was oriented towards studies in computer science to had my bachelor in computer science management in 2021 at HE2B ESI.
+					Since then, I have been training to expand my knowledge as much as possible to learn more!
 					</p>
-					<a href="files\cv_yassin.pdf" download><button className="block mt-8 mx-auto md:mx-0 py-3 px-6 w-60 h-16 text-red-50 text-lg font-semibold rounded-xl bg-indigo-900">Download Resume !</button></a>
+					<a href="files\cv_yassin.pdf" target="_blank"><button className="block mt-8 mx-auto md:mx-0 py-3 px-6 w-60 h-16 text-red-50 text-lg font-semibold rounded-xl bg-indigo-900">Download Resume !</button></a>
 					
 				</div>
 			</div>

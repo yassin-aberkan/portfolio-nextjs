@@ -1,6 +1,3 @@
-import Head from 'next/head'
-import Image from 'next/image'
-
 import Layout from "../components/layout";
 import HomePage from "../components/home";
 import Services from "../components/services";

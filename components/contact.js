@@ -3,9 +3,8 @@ import {
     FaPhoneAlt,
     FaEnvelope,
   } from "react-icons/fa";
-import Aos from "aos";
+
 import "aos/dist/aos.css";
-import { useEffect } from "react";
 import { Element } from "react-scroll";
 
 const infos = [
@@ -31,10 +30,6 @@ const infos = [
   ];
 
 function contact() {
-
-  useEffect(() => {
-    Aos.init({duration:1500});
-  }, []);
 
 	return (
 		<Element id="contact" name="contact">

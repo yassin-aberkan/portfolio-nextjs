@@ -3,7 +3,7 @@ import Head from "next/head";
 import Navigation from "./navigation";
 import MyFooter from "./footer";
 
-export default function Layout({ children, page }) {
+function Layout({ children, page }) {
   return (
     <div className=" text-center">
       <Head>
@@ -24,3 +24,5 @@ export default function Layout({ children, page }) {
     </div>
   );
 }
+
+export default Layout;

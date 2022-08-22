@@ -1,13 +1,7 @@
-import Aos from "aos";
 import "aos/dist/aos.css";
-import { useEffect } from "react";
 import { Element } from "react-scroll";
 import { FaArrowRight } from 'react-icons/fa';
 function projects() {
-
-  useEffect(() => {
-    Aos.init({duration:1500});
-  }, []);
 
 	return (
 		<Element id="projects" name="projects">
@@ -16,7 +10,7 @@ function projects() {
 				<h1 className="text-indigo-900 md:text-5xl text-4xl font-bold text-center">
 					All my works
 				</h1>
-				<div className="xl:flex lg:flex-row lg:justify-between xl:mx-64 md:mx-24 mx-4 mt-20 xl:space-x-24 xl:space-y-0 space-y-14" data-aos="fade-dawn">
+				<div className="xl:flex lg:flex-row lg:justify-between xl:mx-64 md:mx-24 mx-4 mt-20 xl:space-x-24 xl:space-y-0 space-y-14" data-aos="fade-up">
           <img className="lg:h-80 md:h-80 h-56 rounded-lg object-cover shadow-xl xl:mx-0 mx-auto" src="/images/works-beformation.png" alt="" />
           <div className="xl:text-left text-center xl:w-1/2 lg:3/4">
           <h2 className="text-indigo-900 md:text-4xl text-3xl font-bold">
@@ -34,7 +28,7 @@ function projects() {
           </a>
           </div>
         </div>
-        <div className="xl:flex lg:flex-row lg:justify-between xl:mx-64 md:mx-24 mx-4 mt-20 xl:space-x-24 xl:space-y-0 space-y-14" data-aos="fade-dawn">
+        <div className="xl:flex lg:flex-row lg:justify-between xl:mx-64 md:mx-24 mx-4 mt-20 xl:space-x-24 xl:space-y-0 space-y-14" data-aos="fade-up">
           <div className="flex flex-row justify-center space-x-10 space-y-0 xl:mr-5">
             <img className="lg:h-80 md:h-80 h-72 rounded-lg object-cover shadow-xl" src="/images/works-vasit01.jpeg" alt="" />
             <img className="lg:h-80 md:h-80 h-72 rounded-lg object-cover shadow-xl" src="/images/works-vasit02.jpeg" alt="" />

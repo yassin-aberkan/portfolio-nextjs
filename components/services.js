@@ -1,8 +1,6 @@
 import { FaCheckCircle } from 'react-icons/fa';
 import { Element } from "react-scroll";
-import Aos from "aos";
 import "aos/dist/aos.css";
-import { useEffect } from "react";
 
 const backend = [
     { name: 'Java', description: 'Experimented' },
@@ -22,13 +20,8 @@ const frontend = [
     { name: 'React', description: 'Intermediate' },
     { name: 'Flutter', description: 'Experimented' },
   ]
-  
+
 function services() {
-
-    useEffect(() => {
-        Aos.init({duration:1500});
-      }, []);
-
 	return (
 		<Element id="services" name="services">
 			<div className="w-full lg:my-24 my-16 h-auto flex flex-col justify-center items-center ">
@@ -37,7 +30,7 @@ function services() {
 					My Expertise
 				</h1>
 				<div className="xl:flex lg:flex-row lg:justify-around xl:mx-40 md:mx-24 mx-4 mt-16 xl:space-x-48 xl:space-y-0 space-y-14">
-                <div className="bg-slate-200 py-10 px-14 rounded-2xl" data-aos="fade-up">
+                <div className="bg-slate-200 py-10 px-14 rounded-2xl" data-aos="fade-up" data-aos-offset="200">
                     <h2 className="text-indigo-900  md:text-3xl text-2xl  font-semibold text-center">
                         Backend Development
                     </h2>

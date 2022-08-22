@@ -5,6 +5,7 @@ import Projects from "../components/projects";
 import Contact from "../components/contact";
 
 export default function Home() {
+  
   return (
     <div>
       <Layout className="landingOther" page="Home">

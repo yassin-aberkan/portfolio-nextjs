@@ -7,7 +7,7 @@ function Home() {
 			<div>
 			<div className="container mx-auto mt-8 md:mt-0 lg:space-x-10 lg:grid grid-cols-3 justify-center lg:pt-20 pt-8 lg:px-0 px-6 lg:pb-24 pb-12">
 				<div className="grid justify-center items-center order-1 col-span-1">
-				<img className="lg:h-96 md:h-80 h-64 rounded-tl-lg rounded-[48px] rounded-br-lg object-cover ml-10" src="/images/profile.jpeg" alt="" />
+				<img className="lg:h-96 md:h-80 h-64 rounded-tl-lg rounded-[48px] rounded-br-lg object-cover md:ml-10" src="/images/profile.jpeg" alt="" />
 				</div>
 				<div className=" flex flex-col mt-8 lg:mt-0 justify-center lg:items-start items-center items col-span-2">
 					<p className="mb-6 lg:text-left text-xl section__subtitle">Hello</p>
